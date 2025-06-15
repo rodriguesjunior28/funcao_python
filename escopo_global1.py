@@ -5,7 +5,7 @@ def salario_bonus(bonus, lista):
 
     # Esse trecho aqui é pra preservar e não alterar a lista original
     # O append modifica a lista original no local, não cria uma nova lista
-    lista_aux = lista.copy()
+    lista_aux = lista.copy() # aqui copiou a lista original
     lista_aux.append(2)
 
     # O extend é usado para add múltiplos elementos de um iterável
